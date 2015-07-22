@@ -1,7 +1,5 @@
 # emma_fake_api.rb
 
-require 'sinatra'
-
   # emma fake token
   post '/oauth/token' do
     emma_json_response 200, 'access_token.json'

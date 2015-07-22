@@ -1,7 +1,5 @@
 # eventbrite_fake_api.rb
 
-require 'sinatra'
-
   # eventbrite fake token
   post '/oauth/token' do
     eventbrite_json_response 200, 'access_token.json'

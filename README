@@ -1,5 +1,0 @@
-1. Install sinatra gem (gem install sinatra)
-
-2. Change directory to each separate project folder (EX: cd /sinatra/Emma)
-
-3. Start the sinatra server by calling ruby xxFakeAPI.rb
