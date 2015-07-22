@@ -1,0 +1,14 @@
+{
+  "organizers": [
+        {   
+        "id":"8305248612",
+        "description":null,
+        "logo":null,
+        "resource_uri":"https://www.eventbriteapi.com/v3/organizers/8305248612/",
+        "name":"Nil",
+        "url":"http://www.eventbrite.com/o/nil-8305248612",
+        "num_past_events":0,
+        "num_future_events":0}
+  ],
+  "pagination": {"object_count":1,"page_number":1,"page_size":50,"page_count":1}
+}
