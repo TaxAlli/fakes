@@ -1,5 +1,15 @@
 begin
   require 'fakes.rb'
+  puts "==============================================================="
+  puts "The external APIs for #{ Fakes::SUPPORTED_SERVICES.join(', ') }"
+  puts "Have now started"
+  puts "==============================================================="
+
+  Fakes.run_all!
+
+  puts "==============================================================="
+  puts "Have now ended"
+  puts "==============================================================="
 rescue LoadError => e
   require 'rubygems'
   path = File.expand_path '../../lib', __FILE__

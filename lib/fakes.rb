@@ -1,13 +1,15 @@
 require "fakes/version"
 require 'sinatra/base'
 require 'fakes/oauth_fake'
-require 'eventbrite/eventbrite_fake_api'
-require 'emma/emma_fake_api'
 
 module Fakes
 
+  SUPPORTED_SERVICES = %w( eventbrite emma quickbooks_online infusionsoft )
+
+  def self.run_all!
+    Fakes::OAuthFake.run!
+  end
 end
 
 
-p 'fakeemma test~!!!'
 #Fakes::FakeEmmaApi.run!

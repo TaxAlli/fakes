@@ -1,22 +1,27 @@
+require 'fakes/oauth/emma/emma_fake_api'
+require 'fakes/oauth/eventbrite/eventbrite_fake_api'
+
 module Fakes
   class OAuthFake < Sinatra::Base
+    register FakeEmmaApi
+    register FakeEventbriteApi
+
     # fake token
     post '/oauth/:service/token' do
-      #eventbrite_json_response 200, 'access_token.json'
-      token_json_response 200, 'access_token.json', params[:service]
+      json_response 200, 'access_token.json', params[:service]
     end
 
     # auth
     get '/oauth/:service' do
-      redirect 'http://taxalli-dev.ngrok.io/auth/:service/callback'
+      redirect params[:redirect_uri]
     end
 
     private
 
-    def token_json_response(response_code, file_name, service)
+    def json_response(response_code, file_name, service)
       content_type :json
       status response_code
-      File.open(File.dirname(__FILE__) + "#{service}_data" + file_name, 'rb').read
+      File.open(File.dirname(__FILE__) +"/oauth/#{service}/#{service}_data/" + file_name, 'rb').read
     end
   end
 end
