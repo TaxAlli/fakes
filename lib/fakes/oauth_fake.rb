@@ -1,10 +1,14 @@
 require 'fakes/oauth/emma/emma_fake_api'
 require 'fakes/oauth/eventbrite/eventbrite_fake_api'
+require 'fakes/oauth/infusionsoft/infusionsoft_fake_api'
+require 'fakes/oauth/quickbooks_online/quickbooks_online_fake_api'
 
 module Fakes
   class OAuthFake < Sinatra::Base
     register FakeEmmaApi
     register FakeEventbriteApi
+    register FakeInfusionsoftApi
+    register FakeQuickBooksOnlineApi
 
     # fake token
     post '/oauth/:service/token' do
@@ -12,7 +16,7 @@ module Fakes
     end
 
     # auth
-    get '/oauth/:service' do
+    get '/oauth/:authorize' do
       redirect params[:redirect_uri]
     end
 

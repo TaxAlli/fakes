@@ -3,25 +3,17 @@ module Fakes
   module FakeEventbriteApi
 
     def self.registered(app)
-      # eventbrite fake api data
-      app.get '/v3/users/me/' do
-        json_response 200, 'user.json', 'eventbrite'
+
+      # get organizers
+      app.get '/v3/users/:id/organizers' do
+        json_response 200, 'organizers.json', 'eventbrite'
       end
 
-      # get contact lists
-      app.get '/users/:id/contact_lists' do
-        json_response 200, 'contact_lists.json', 'eventbrite'
+      # get owned_event_orders and attendees
+      app.get '/v3/users/:id/owned_event_orders/*' do
+        json_response 200, 'owned_event_orders.json', 'eventbrite'
       end
 
-      # get owned_events
-      app.get '/users/:id/owned_events/' do
-        json_response 200, 'owned_events.json', 'eventbrite'
-      end
-
-      # get orders
-      app.get '/users/:id/orders/' do
-        json_response 200, 'order.json', 'eventbrite'
-      end
     end
 
     def json_response
