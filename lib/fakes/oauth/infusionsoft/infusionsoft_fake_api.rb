@@ -4,13 +4,30 @@ module Fakes
       preroute = '/infusionsoft'
 
       # infusionsoft fake api data
-      app.get "#{preroute}/:account/members" do
-        json_response 200, 'temp.json', 'infusionsoft'
+      app.post "#{preroute}/crm/xmlrpc/v1" do
+        xml_body = request.body.read.to_s
+
+        # return contact data
+        if xml_body.include? "ContactService.load"
+          json_response 200, 'contacts.xml', 'infusionsoft'
+        end
+
+        # return company data
+        if xml_body.include? "ContactService.load"
+          json_response 200, 'contacts.xml', 'infusionsoft'
+        end
+
+        # return invoice data
+        if xml_body.include? "InvoiceService.getPayments"
+          json_response 200, 'invoices.xml', 'infusionsoft'
+        end
       end
     end
 
-    def json_response
-      raise NotImplementedError
+    def json_response(response_code, file_name, service)
+      content_type :xml
+      status response_code
+      File.open(File.dirname(__FILE__) +"/#{service}/#{service}_data/" + file_name, 'xml').read
     end
   end
 end

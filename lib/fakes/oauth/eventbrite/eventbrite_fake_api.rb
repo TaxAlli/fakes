@@ -1,16 +1,16 @@
 module Fakes
   # eventbrite_fake_api.rb
   module FakeEventbriteApi
-
     def self.registered(app)
+      preroute = '/eventbrite'
 
       # get organizers
-      app.get '/v3/users/:id/organizers' do
+      app.get "#{preroute}/v3/users/:id/organizers" do
         json_response 200, 'organizers.json', 'eventbrite'
       end
 
       # get owned_event_orders and attendees
-      app.get '/v3/users/:id/owned_event_orders/*' do
+      app.get "#{preroute}/v3/users/:id/owned_event_orders/*" do
         json_response 200, 'owned_event_orders.json', 'eventbrite'
       end
 

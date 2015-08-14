@@ -1,10 +1,10 @@
 module Fakes
   module FakeEmmaApi
     def self.registered(app)
-      #preroute = '/myemma'
+      preroute = '/myemma'
 
       # emma fake api data
-      app.get "/:account/members" do
+      app.get "#{preroute}/:account/members" do
         json_response 200, 'members.json', 'emma'
       end
     end

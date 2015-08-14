@@ -1,0 +1,56 @@
+{
+  "Bill": {
+    "SalesTermRef": {
+      "value": "3"
+    },
+    "DueDate": "2014-12-06",
+    "Balance": 0,
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "25",
+    "SyncToken": "2",
+    "MetaData": {
+      "CreateTime": "2014-11-06T15:37:25-08:00",
+      "LastUpdatedTime": "2015-02-09T10:11:11-08:00"
+    },
+    "TxnDate": "2014-11-06",
+    "CurrencyRef": {
+      "value": "USD",
+      "name": "United States Dollar"
+    },
+    "LinkedTxn": [{
+      "TxnId": "118",
+      "TxnType": "BillPaymentCheck"
+    }],
+    "Line": [{
+      "Id": "1",
+      "Description": "Lumber",
+      "Amount": 103.55,
+      "DetailType": "AccountBasedExpenseLineDetail",
+      "AccountBasedExpenseLineDetail": {
+        "CustomerRef": {
+          "value": "26",
+          "name": "Travis Waldron"
+        },
+        "AccountRef": {
+          "value": "64",
+          "name": "Job Expenses:Job Materials:Decks and Patios"
+        },
+        "BillableStatus": "Billable",
+        "TaxCodeRef": {
+          "value": "TAX"
+        }
+      }
+    }],
+    "VendorRef": {
+      "value": "46",
+      "name": "Norton Lumber and Building Materials"
+    },
+    "APAccountRef": {
+      "value": "33",
+      "name": "Accounts Payable (A/P)"
+    },
+    "TotalAmt": 103.55
+  },
+  "time": "2015-02-09T10:17:20.251-08:00"
+}

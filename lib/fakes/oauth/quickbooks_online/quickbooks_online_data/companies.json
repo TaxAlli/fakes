@@ -1,0 +1,40 @@
+{
+  "Vendor": {
+    "BillAddr": {
+      "Id": "31",
+      "Line1": "15 Main St.",
+      "City": "Palo Alto",
+      "CountrySubDivisionCode": "CA",
+      "PostalCode": "94303",
+      "Lat": "37.445013",
+      "Long": "-122.1391443"
+    },
+    "Balance": 0,
+    "AcctNum": "1345",
+    "Vendor1099": false,
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "30",
+    "SyncToken": "0",
+    "MetaData": {
+      "CreateTime": "2014-09-12T10:07:56-07:00",
+      "LastUpdatedTime": "2014-09-17T11:13:46-07:00"
+    },
+    "GivenName": "Bessie",
+    "FamilyName": "Williams",
+    "CompanyName": "Books by Bessie",
+    "DisplayName": "Books by Bessie",
+    "PrintOnCheckName": "Books by Bessie",
+    "Active": true,
+    "PrimaryPhone": {
+      "FreeFormNumber": "(650) 555-7745"
+    },
+    "PrimaryEmailAddr": {
+      "Address": "Books@Intuit.com"
+    },
+    "WebAddr": {
+      "URI": "http://www.booksbybessie.co"
+    }
+  },
+  "time": "2015-07-28T13:33:09.453-07:00"
+}
