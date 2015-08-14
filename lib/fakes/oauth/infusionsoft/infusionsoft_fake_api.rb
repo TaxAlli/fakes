@@ -10,15 +10,11 @@ module Fakes
         # return contact data
         if xml_body.include? "ContactService.load"
           json_response 200, 'contacts.xml', 'infusionsoft'
-        end
-
         # return company data
-        if xml_body.include? "ContactService.load"
-          json_response 200, 'contacts.xml', 'infusionsoft'
-        end
-
+        elsif xml_body.include? "DataService.load"
+          json_response 200, 'companies.xml', 'infusionsoft'
         # return invoice data
-        if xml_body.include? "InvoiceService.getPayments"
+        elsif xml_body.include? "InvoiceService.getPayments"
           json_response 200, 'invoices.xml', 'infusionsoft'
         end
       end
