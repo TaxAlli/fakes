@@ -1,0 +1,41 @@
+{
+  "userContext": {
+    "conversationCredentials": {
+      "sessionToken": "08062013_0:d58fe9eead680a0856f9addd2be2276152383287402b54e4e6c688d4f867878d378f66380c0d9c5de6d6cb6eb6748b19e1ec6e21700c685f1fc657a7ad7071dc"
+    },
+    "valid": true,
+    "isPasswordExpired": false,
+    "cobrandId": 10010352,
+    "channelId": -1,
+    "locale": "en_US",
+    "tncVersion": 2,
+    "applicationId": "3A4CAE9B71A1CCD7FF41F51006E9ED00",
+    "cobrandConversationCredentials": {
+      "sessionToken": "08062013_0:9dd9811cbd76c669c8f7b0a048a58913b9717c52fc509861280a31c669534a855757728240ab2d199c220d8b1203a403b77c3b4b58011f96beb721985e7b5039"
+    },
+    "preferenceInfo": {
+      "currencyCode": "USD",
+      "timeZone": "PST",
+      "dateFormat": "MM/dd/yyyy",
+      "currencyNotationType": {
+        "currencyNotationType": "SYMBOL"
+      },
+      "numberFormat": {
+        "decimalSeparator": ".",
+        "groupingSeparator": ",",
+        "groupPattern": "###,##0.##"
+      }
+    }
+  },
+  "lastLoginTime": 1440002304,
+  "loginCount": 322,
+  "passwordRecovered": false,
+  "emailAddress": "ben@bookly.co",
+  "loginName": "sbMembookly1",
+  "userId": 10038301,
+  "userType": {
+    "userTypeId": 1,
+    "userTypeName": "normal_user"
+  },
+  "isConfirmed": false
+}

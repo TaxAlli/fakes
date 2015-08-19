@@ -2,6 +2,7 @@ require 'fakes/oauth/emma/emma_fake_api'
 require 'fakes/oauth/eventbrite/eventbrite_fake_api'
 require 'fakes/oauth/infusionsoft/infusionsoft_fake_api'
 require 'fakes/oauth/quickbooks_online/quickbooks_online_fake_api'
+require 'fakes/oauth/yodlee/yodlee_fake_api'
 
 module Fakes
   class OAuthFake < Sinatra::Base
@@ -9,6 +10,7 @@ module Fakes
     register FakeEventbriteApi
     register FakeInfusionsoftApi
     register FakeQuickBooksOnlineApi
+    register FakeYodleeApi
 
     # fake token
     post '/oauth/:service/token' do

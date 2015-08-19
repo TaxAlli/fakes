@@ -1,0 +1,19 @@
+{
+  "siteRefreshStatus": {
+    "siteRefreshStatusId": 12,
+    "siteRefreshStatus": "REFRESH_COMPLETED_ACCOUNTS_ALREADY_AGGREGATED"
+  },
+  "siteRefreshMode": {
+    "refreshModeId": 2,
+    "refreshMode": "NORMAL"
+  },
+  "updateInitTime": 0,
+  "nextUpdate": 1440610226,
+  "code": 0,
+  "noOfRetry": 0,
+  "isMFAInputRequired": false,
+  "siteAddStatus": {
+    "siteAddStatusId": 15,
+    "siteAddStatus": "ADD_FAILURE"
+  }
+}
