@@ -1,0 +1,19 @@
+{
+  "siteRefreshStatus": {
+    "siteRefreshStatusId": 2,
+    "siteRefreshStatus": "LOGIN_SUCCESS"
+  },
+  "siteRefreshMode": {
+    "refreshModeId": 2,
+    "refreshMode": "NORMAL"
+  },
+  "updateInitTime": 1440106143,
+  "nextUpdate": 1440107043,
+  "code": 0,
+  "noOfRetry": 0,
+  "isMFAInputRequired": false,
+  "siteAddStatus": {
+    "siteAddStatusId": 13,
+    "siteAddStatus": "ADD_IN_PROGRESS"
+  }
+}

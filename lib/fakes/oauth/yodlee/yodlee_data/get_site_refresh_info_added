@@ -1,0 +1,112 @@
+{
+  "siteRefreshStatus": {
+    "siteRefreshStatusId": 5,
+    "siteRefreshStatus": "REFRESH_COMPLETED"
+  },
+  "siteRefreshMode": {
+    "refreshModeId": 2,
+    "refreshMode": "NORMAL"
+  },
+  "updateInitTime": 0,
+  "nextUpdate": 1440196235,
+  "code": 0,
+  "itemRefreshInfo": [
+    {
+      "memItemId": 10130814,
+      "itemSuggestedFlow": {
+        "suggestedFlowId": 1,
+        "suggestedFlow": "NOT_REFRESHABLE"
+      },
+      "itemSuggestedFlowReason": {
+        "suggestedFlowReasonId": 5,
+        "suggestedFlowReason": "RECENTLY_REFRESHED"
+      },
+      "errorCode": 0,
+      "retryCount": 0
+    },
+    {
+      "memItemId": 10130815,
+      "itemSuggestedFlow": {
+        "suggestedFlowId": 1,
+        "suggestedFlow": "NOT_REFRESHABLE"
+      },
+      "itemSuggestedFlowReason": {
+        "suggestedFlowReasonId": 5,
+        "suggestedFlowReason": "RECENTLY_REFRESHED"
+      },
+      "errorCode": 0,
+      "retryCount": 0
+    },
+    {
+      "memItemId": 10130816,
+      "itemSuggestedFlow": {
+        "suggestedFlowId": 1,
+        "suggestedFlow": "NOT_REFRESHABLE"
+      },
+      "itemSuggestedFlowReason": {
+        "suggestedFlowReasonId": 5,
+        "suggestedFlowReason": "RECENTLY_REFRESHED"
+      },
+      "errorCode": 0,
+      "retryCount": 0
+    },
+    {
+      "memItemId": 10130817,
+      "itemSuggestedFlow": {
+        "suggestedFlowId": 1,
+        "suggestedFlow": "NOT_REFRESHABLE"
+      },
+      "itemSuggestedFlowReason": {
+        "suggestedFlowReasonId": 5,
+        "suggestedFlowReason": "RECENTLY_REFRESHED"
+      },
+      "errorCode": 0,
+      "retryCount": 0
+    },
+    {
+      "memItemId": 10130818,
+      "itemSuggestedFlow": {
+        "suggestedFlowId": 1,
+        "suggestedFlow": "NOT_REFRESHABLE"
+      },
+      "itemSuggestedFlowReason": {
+        "suggestedFlowReasonId": 5,
+        "suggestedFlowReason": "RECENTLY_REFRESHED"
+      },
+      "errorCode": 0,
+      "retryCount": 0
+    },
+    {
+      "memItemId": 10130819,
+      "itemSuggestedFlow": {
+        "suggestedFlowId": 1,
+        "suggestedFlow": "NOT_REFRESHABLE"
+      },
+      "itemSuggestedFlowReason": {
+        "suggestedFlowReasonId": 5,
+        "suggestedFlowReason": "RECENTLY_REFRESHED"
+      },
+      "errorCode": 0,
+      "retryCount": 0
+    },
+    {
+      "memItemId": 10130820,
+      "itemSuggestedFlow": {
+        "suggestedFlowId": 1,
+        "suggestedFlow": "NOT_REFRESHABLE"
+      },
+      "itemSuggestedFlowReason": {
+        "suggestedFlowReasonId": 5,
+        "suggestedFlowReason": "RECENTLY_REFRESHED"
+      },
+      "errorCode": 0,
+      "retryCount": 0
+    }
+  ],
+  "noOfRetry": 0,
+  "isMFAInputRequired": false,
+  "siteAddStatus": {
+    "siteAddStatusId": 14,
+    "siteAddStatus": "ADDED"
+  }
+}

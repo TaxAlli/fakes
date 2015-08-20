@@ -15,12 +15,12 @@ module Fakes
 
       # fake add site account
       app.post "/services/srest/restserver/v1.0/jsonsdk/SiteAccountManagement/addSiteAccount1" do
-        json_response 200, 'add_site_account_1.json', 'yodlee'
+        json_response 200, 'add_site_account_1_added.json', 'yodlee'
       end
 
       # fake get site refresh info
       app.post "/services/srest/restserver/v1.0/jsonsdk/Refresh/getSiteRefreshInfo" do
-        json_response 200, 'get_site_refresh_info.json', 'yodlee'
+        json_response 200, 'get_site_refresh_info_added.json', 'yodlee'
       end
 
       app.post "/services/srest/restserver/v1.0/jsonsdk/SiteAccountManagement/removeSiteAccount" do

@@ -1,0 +1,56 @@
+{
+  "siteAccountId": 10082823,
+  "isCustom": false,
+  "credentialsChangedTime": 1440013098,
+  "siteRefreshInfo": {
+    "siteRefreshStatus": {
+      "siteRefreshStatusId": 1,
+      "siteRefreshStatus": "REFRESH_TRIGGERED"
+    },
+    "siteRefreshMode": {
+      "refreshModeId": 2,
+      "refreshMode": "NORMAL"
+    },
+    "updateInitTime": 1440104874,
+    "nextUpdate": 1440105774,
+    "code": 0,
+    "suggestedFlow": {
+      "suggestedFlowId": 2,
+      "suggestedFlow": "REFRESH"
+    },
+    "noOfRetry": 0,
+    "isMFAInputRequired": false,
+    "siteAddStatus": {
+      "siteAddStatusId": 15,
+      "siteAddStatus": "ADD_FAILURE"
+    }
+  },
+  "siteInfo": {
+    "popularity": 0,
+    "siteId": 8995,
+    "orgId": 1148,
+    "defaultDisplayName": "DagBank",
+    "defaultOrgDisplayName": "Demo Bank",
+    "enabledContainers": [
+      {
+        "containerName": "bank",
+        "assetType": 1
+      }
+    ],
+    "baseUrl": "http://64.14.28.129/dag/index.do",
+    "loginForms": [],
+    "isHeld": false,
+    "isCustom": false,
+    "siteSearchVisibility": true,
+    "isAlreadyAddedByUser": true,
+    "isOauthEnabled": false,
+    "hdLogoLastModified": 0,
+    "isHdLogoAvailable": false
+  },
+  "created": "2015-08-19T12:38:18-0700",
+  "retryCount": 0,
+  "disabled": false,
+  "isAgentError": false,
+  "isSiteError": false,
+  "isUARError": false
+}

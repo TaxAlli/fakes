@@ -1,102 +1,2323 @@
-{
-  "itemId":1111357731,
-  "contentServiceId":10825,
-  "contentServiceInfo":{
-    "contentServiceId":10825
-  },
-  "itemDisplayName":"Itaú Unibanco (Custom Bank) - Cable&Satellite Bills",
-  "refreshInfo":{
-    "itemId":1111357731,
-    "statusCode":801,
-    "refreshType":1,
-    "refreshRequestTime":0,
-    "lastUpdatedTime":1360839043,
-    "lastUpdateAttemptTime":0,
-    "itemAccessStatus":{
-      "name":"ACCESS_NOT_VERIFIED"
-    },
-    "userActionRequiredType":{
-      "name":"NONE"
-    },
-    "userActionRequiredSince":"Feb 14, 2013 4:20:43 PM",
-    "itemCreateDate":"Feb 14, 2013 4:20:43 PM",
-    "nextUpdateTime":1375060011,
-    "responseCodeType":{
-      "responseCodeTypeId":1
-    },
-    "retryCount":0,
-    "refreshMode":"NORMAL"
-  },
-  "isCustom":true,
-  "isDisabled":false,
-  "itemData":{
-    "accounts":[
-      {
-        "isSeidMod":0,
-        "acctTypeId":0,
-        "acctType":"Unknown",
-        "localizedAcctType":"Unknown",
-        "billPreferenceId":131174,
-        "billingAccountId":1659263,
-        "customName":"manualaccount",
-        "isDeleted":0,
-        "lastUpdated":1360839043,
-        "hasDetails":0,
-        "accountNumber":"xxxx7890",
-        "dueDate":{
-          "date":"Feb 21, 2013 12:00:00 AM"
-        },
-        "lastPaymentDate":{
-
-        },
-        "derivedAutopayEnrollmentStatusId":0,
-        "derivedAutopayEnrollmentStatus":"unknown",
-        "localizedDerivedAutopayEnrollmentStatus":"unknown",
-        "accountName":"manualaccount",
-        "userAutopayEnrollmentStatusId":0,
-        "userAutopayEnrollmentStatus":"unknown",
-        "localizedUserAutopayEnrollmentStatus":"unknown",
-        "billListToDate":{
-
-        },
-        "billListFromDate":{
-
-        },
-        "autopayEnrollmentStatusId":0,
-        "autopayEnrollmentStatus":"unknown",
-        "localizedAutopayEnrollmentStatus":"unknown",
-        "asofDate":{
-
-        },
-        "created":1360839043,
-        "nickName":"MA",
-        "itemDataTableId":13,
-        "itemAccountStatusId":1,
-        "includeInNetworth":0,
-        "isAsset":0,
-        "isLinkedItemAccount":false,
-        "itemAccountExtensions":[
-          "CUSTOM_ACCOUNT"
-        ],
-        "isUpdatePastTransaction":false,
-        "isUpdateTxCategory":true,
-        "createOpeningTxn":true,
-        "cacheItemId":79896503,
-        "isItemAccountDeleted":0,
-        "accountId":1659263,
-        "level":0,
-        "accountDisplayName":{
-          "defaultNormalAccountName":"manualaccount (MA) "
-        },
-        "itemAccountId":3690226,
-        "baseTagDataId":"BILLING_ACCOUNT:79896503:0:1659263",
-        "refreshTime":1360839043
+[
+  {
+    "itemId": 10130814,
+    "contentServiceId": 20559,
+    "contentServiceInfo": {
+      "contentServiceId": 20559,
+      "siteId": 16441,
+      "containerInfo": {
+        "containerName": "bank",
+        "assetType": 1
       }
-    ]
+    },
+    "itemDisplayName": "Dag Site - Bank",
+    "refreshInfo": {
+      "itemId": 10130814,
+      "statusCode": 0,
+      "refreshType": 2,
+      "refreshRequestTime": 0,
+      "lastUpdatedTime": 1440104416,
+      "lastUpdateAttemptTime": 1440104416,
+      "itemAccessStatus": {
+        "name": "ACCESS_VERIFIED"
+      },
+      "userActionRequiredType": {
+        "name": "NONE"
+      },
+      "userActionRequiredCode": 0,
+      "lastDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastUserRequestedDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastSuccessfulDataUpdate": "2015-08-20T14:00:16-0700",
+      "itemCreateDate": "2015-08-20T14:00:16-0700",
+      "nextUpdateTime": 1440195051,
+      "responseCodeType": {
+        "responseCodeTypeId": 1
+      },
+      "retryCount": 0,
+      "refreshMode": "NORMAL"
+    },
+    "isCustom": false,
+    "isDisabled": false,
+    "isItemRefreshInProgress": false,
+    "isOauthEnabled": false,
+    "itemData": {
+      "accounts": [
+        {
+          "isSeidFromDataSource": 1,
+          "isSeidMod": 0,
+          "acctTypeId": 3,
+          "acctType": "checking",
+          "localizedAcctType": "fixedDeposit",
+          "srcElementId": "23232323",
+          "bankAccountId": 10105731,
+          "isDeleted": 0,
+          "lastUpdated": 1440104416,
+          "hasDetails": 0,
+          "accountNumber": "xxxx3xxx",
+          "accountHolder": "accountHolder",
+          "tranListToDate": {
+            "date": "2013-07-16T00:00:00-0700"
+          },
+          "tranListFromDate": {
+            "date": "2013-01-16T00:00:00-0800"
+          },
+          "availableBalance": {
+            "amount": 54.78,
+            "currencyCode": "USD"
+          },
+          "currentBalance": {
+            "amount": 44.78,
+            "currencyCode": "USD"
+          },
+          "accountName": "TESTDATA",
+          "maturityDate": {},
+          "asOfDate": {},
+          "isPaperlessStmtOn": 0,
+          "created": 1440104416,
+          "accountClassification": {
+            "accountClassificationId": 2,
+            "accountClassification": "PERSONAL"
+          },
+          "itemDataTableId": 10,
+          "itemAccountStatusId": 1,
+          "includeInNetworth": 1,
+          "isLinkedItemAccount": false,
+          "rowLastUpdated": "2015-08-20T14:00:16-0700",
+          "isUpdatePastTransaction": false,
+          "isUpdateTxCategory": true,
+          "createOpeningTxn": true,
+          "isEbillEnrolledAccount": false,
+          "isDocumentAvailable": false,
+          "cacheItemId": 10131014,
+          "isItemAccountDeleted": 0,
+          "accountId": 10105731,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Bank - TESTDATA"
+          },
+          "itemAccountId": 10150669,
+          "baseTagDataId": "BANK_ACCOUNT:10131014:0:10105731",
+          "refreshTime": 1440104416
+        },
+        {
+          "isSeidFromDataSource": 1,
+          "isSeidMod": 0,
+          "acctTypeId": 4,
+          "acctType": "savings",
+          "localizedAcctType": "savings",
+          "srcElementId": "1323121",
+          "bankAccountId": 10105732,
+          "isDeleted": 0,
+          "lastUpdated": 1440104416,
+          "hasDetails": 0,
+          "accountNumber": "xxxx3xxx",
+          "accountHolder": "accountHolder",
+          "tranListToDate": {
+            "date": "2013-01-16T00:00:00-0800"
+          },
+          "tranListFromDate": {
+            "date": "2013-01-02T00:00:00-0800"
+          },
+          "availableBalance": {
+            "amount": 65454.78,
+            "currencyCode": "USD"
+          },
+          "currentBalance": {
+            "amount": 9044.78,
+            "currencyCode": "USD"
+          },
+          "accountName": "TESTDATA1",
+          "maturityDate": {},
+          "asOfDate": {},
+          "isPaperlessStmtOn": 0,
+          "created": 1440104416,
+          "itemDataTableId": 10,
+          "itemAccountStatusId": 1,
+          "includeInNetworth": 1,
+          "isLinkedItemAccount": false,
+          "rowLastUpdated": "2015-08-20T14:00:16-0700",
+          "isUpdatePastTransaction": false,
+          "isUpdateTxCategory": true,
+          "createOpeningTxn": true,
+          "isEbillEnrolledAccount": false,
+          "isDocumentAvailable": false,
+          "cacheItemId": 10131014,
+          "isItemAccountDeleted": 0,
+          "accountId": 10105732,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Bank - TESTDATA1"
+          },
+          "itemAccountId": 10150670,
+          "baseTagDataId": "BANK_ACCOUNT:10131014:0:10105732",
+          "refreshTime": 1440104416
+        }
+      ]
+    },
+    "itemStatus": 0,
+    "isHeld": 0,
+    "secondsSinceLastUpdated": 151,
+    "exchangeRate": 1,
+    "isSharedItem": false,
+    "isPrepop": false,
+    "memSiteAccId": 10083324
   },
-  "itemStatus":0,
-  "isHeld":0,
-  "isSharedItem":false,
-  "isPrepop":false,
-  "memSiteAccId":899897
-}
+  {
+    "itemId": 10130815,
+    "contentServiceId": 20560,
+    "contentServiceInfo": {
+      "contentServiceId": 20560,
+      "siteId": 16441,
+      "containerInfo": {
+        "containerName": "bills",
+        "assetType": 0
+      }
+    },
+    "itemDisplayName": "Dag Site - Bills",
+    "refreshInfo": {
+      "itemId": 10130815,
+      "statusCode": 0,
+      "refreshType": 2,
+      "refreshRequestTime": 0,
+      "lastUpdatedTime": 1440104416,
+      "lastUpdateAttemptTime": 1440104416,
+      "itemAccessStatus": {
+        "name": "ACCESS_VERIFIED"
+      },
+      "userActionRequiredType": {
+        "name": "NONE"
+      },
+      "userActionRequiredCode": 0,
+      "lastDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastUserRequestedDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastSuccessfulDataUpdate": "2015-08-20T14:00:16-0700",
+      "itemCreateDate": "2015-08-20T14:00:16-0700",
+      "nextUpdateTime": 1440441547,
+      "responseCodeType": {
+        "responseCodeTypeId": 1
+      },
+      "retryCount": 0,
+      "refreshMode": "NORMAL"
+    },
+    "isCustom": false,
+    "isDisabled": false,
+    "isItemRefreshInProgress": false,
+    "isOauthEnabled": false,
+    "itemData": {
+      "accounts": [
+        {
+          "isSeidFromDataSource": 1,
+          "isSeidMod": 0,
+          "acctTypeId": 1,
+          "acctType": "unknown",
+          "localizedAcctType": "unknown",
+          "srcElementId": "1345785229",
+          "billingAccountId": 10020570,
+          "isDeleted": 0,
+          "lastUpdated": 1440104416,
+          "hasDetails": 0,
+          "accountNumber": "xx5555",
+          "dueDate": {
+            "date": "2013-12-28T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "link": "http://www.altova.com",
+          "lastPaymentDate": {
+            "date": "2013-12-28T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "accountHolder": "DAG",
+          "derivedAutopayEnrollmentStatusId": 0,
+          "derivedAutopayEnrollmentStatus": "unknown",
+          "localizedDerivedAutopayEnrollmentStatus": "unknown",
+          "newCharges": {
+            "amount": 2500,
+            "currencyCode": "USD"
+          },
+          "lastPayment": {
+            "amount": 5600,
+            "currencyCode": "USD"
+          },
+          "amountDue": {
+            "amount": 1200,
+            "currencyCode": "USD"
+          },
+          "minPayment": {
+            "amount": 100,
+            "currencyCode": "USD"
+          },
+          "adjustments": {
+            "amount": 300,
+            "currencyCode": "USD"
+          },
+          "latePaymentCharge": {
+            "amount": 2500,
+            "currencyCode": "USD"
+          },
+          "totalAccountBalance": {
+            "amount": 1200,
+            "currencyCode": "USD"
+          },
+          "accountName": "DAG BILLING",
+          "userAutopayEnrollmentStatus": "unknown",
+          "localizedUserAutopayEnrollmentStatus": "unknown",
+          "derivedAutopayEnrollmentStatusLastUpdated": 1440104416,
+          "billListToDate": {},
+          "billListFromDate": {},
+          "autopayEnrollmentStatusId": 0,
+          "autopayEnrollmentStatus": "unknown",
+          "localizedAutopayEnrollmentStatus": "unknown",
+          "asofDate": {
+            "date": "2013-01-18T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "created": 1440104416,
+          "itemDataTableId": 13,
+          "itemAccountStatusId": 1,
+          "includeInNetworth": 1,
+          "isLinkedItemAccount": false,
+          "rowLastUpdated": "2015-08-20T14:00:16-0700",
+          "isUpdatePastTransaction": false,
+          "isUpdateTxCategory": true,
+          "createOpeningTxn": true,
+          "isEbillEnrolledAccount": false,
+          "isDocumentAvailable": false,
+          "cacheItemId": 10131015,
+          "isItemAccountDeleted": 0,
+          "accountId": 10020570,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Bills - DAG BILLING"
+          },
+          "itemAccountId": 10150671,
+          "baseTagDataId": "BILLING_ACCOUNT:10131015:0:10020570",
+          "refreshTime": 1440104416
+        }
+      ]
+    },
+    "itemStatus": 0,
+    "isHeld": 0,
+    "secondsSinceLastUpdated": 151,
+    "exchangeRate": 1,
+    "isSharedItem": false,
+    "isPrepop": false,
+    "memSiteAccId": 10083324
+  },
+  {
+    "itemId": 10130818,
+    "contentServiceId": 20549,
+    "contentServiceInfo": {
+      "contentServiceId": 20549,
+      "siteId": 16441,
+      "containerInfo": {
+        "containerName": "stocks",
+        "assetType": 1
+      }
+    },
+    "itemDisplayName": "Dag Site - Investments",
+    "refreshInfo": {
+      "itemId": 10130818,
+      "statusCode": 0,
+      "refreshType": 2,
+      "refreshRequestTime": 0,
+      "lastUpdatedTime": 1440104417,
+      "lastUpdateAttemptTime": 1440104417,
+      "itemAccessStatus": {
+        "name": "ACCESS_VERIFIED"
+      },
+      "userActionRequiredType": {
+        "name": "NONE"
+      },
+      "userActionRequiredCode": 0,
+      "lastDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:17-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastUserRequestedDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:17-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastSuccessfulDataUpdate": "2015-08-20T14:00:17-0700",
+      "itemCreateDate": "2015-08-20T14:00:16-0700",
+      "nextUpdateTime": 1440220530,
+      "responseCodeType": {
+        "responseCodeTypeId": 1
+      },
+      "retryCount": 0,
+      "refreshMode": "NORMAL"
+    },
+    "isCustom": false,
+    "isDisabled": false,
+    "isItemRefreshInProgress": false,
+    "isOauthEnabled": false,
+    "itemData": {
+      "accounts": [
+        {
+          "isSeidFromDataSource": 1,
+          "isSeidMod": 0,
+          "acctTypeId": 1,
+          "acctType": "unknown",
+          "localizedAcctType": "unknown",
+          "srcElementId": "11111",
+          "invAcctBaseTypeId": 5,
+          "invAcctBaseType": "other",
+          "localizedInvAcctBaseType": "other",
+          "investmentAccountId": 10027471,
+          "isDeleted": 0,
+          "lastUpdated": 1440104417,
+          "hasDetails": 0,
+          "accountNumber": "xx5555",
+          "planNumber": "2",
+          "link": "http://www.altova.com",
+          "accountHolder": "DAG",
+          "tranListToDate": {
+            "date": "2013-01-17T00:00:00-0800"
+          },
+          "tranListFromDate": {
+            "date": "2013-01-17T00:00:00-0800"
+          },
+          "isOptionAllowed": 0,
+          "planName": "plannamepavan",
+          "isMarginAllowed": 0,
+          "cash": {
+            "amount": 1000,
+            "currencyCode": "USD"
+          },
+          "totalBalance": {
+            "amount": 79629,
+            "currencyCode": "USD"
+          },
+          "totalVestedBalance": {
+            "amount": 2432,
+            "currencyCode": "USD"
+          },
+          "totalUnvestedBalance": {
+            "amount": 23242,
+            "currencyCode": "USD"
+          },
+          "fundsOwed": {
+            "amount": 2323,
+            "currencyCode": "USD"
+          },
+          "availableLoan": {
+            "amount": 55000,
+            "currencyCode": "USD"
+          },
+          "buyingPower": {
+            "amount": 234,
+            "currencyCode": "USD"
+          },
+          "marginBalance": {
+            "amount": 2369,
+            "currencyCode": "USD"
+          },
+          "unsettledFunds": {
+            "amount": 5340,
+            "currencyCode": "USD"
+          },
+          "shortBalance": {
+            "amount": 15000,
+            "currencyCode": "USD"
+          },
+          "moneyMarketBalance": {
+            "amount": 1000,
+            "currencyCode": "USD"
+          },
+          "loan_401k": {
+            "amount": 100,
+            "currencyCode": "USD"
+          },
+          "totalAccountBalance": {
+            "amount": 1406750789,
+            "currencyCode": "USD"
+          },
+          "accountName": "DAG INVESTMENT",
+          "asofDate": {
+            "date": "2013-01-17T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "holdings": [
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "955340537",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 1,
+              "holdingType": "stock",
+              "localizedHoldingType": "stock",
+              "holdingId": 10071646,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "dailyChange": {
+                "amount": 2340,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 236,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "isMarginable": 0,
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "rcategory",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "isRestricted": 0,
+              "internalRefNo": "string",
+              "quantity": 2000,
+              "value": {
+                "amount": 5600,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentageChange": 20,
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "symbol": "holdingsymbol",
+              "isShort": 0,
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "holdingdesc",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "isSymbolNormalized": 0,
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071646,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071646",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "955340538",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 2,
+              "holdingType": "mutualFund",
+              "localizedHoldingType": "mutualFund",
+              "holdingId": 10071647,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "dailyChange": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "isMarginable": 0,
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "MFrisk",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "internalrefNo",
+              "quantity": 2000,
+              "fiAssetClass": "FIAssetclass",
+              "value": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentageChange": 2000,
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "symbol": "MFSymbol",
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "mutualfunddesc",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "isSymbolNormalized": 0,
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071647,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071647",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 1,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "955340538::1",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 2,
+              "holdingType": "mutualFund",
+              "localizedHoldingType": "mutualFund",
+              "holdingId": 10071648,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2001-12-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "dailyChange": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "isMarginable": 0,
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "MFrisk",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "internalrefNo",
+              "quantity": 2000,
+              "fiAssetClass": "FIAssetclass",
+              "value": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentageChange": 2000,
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "symbol": "MFSymbol2",
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "mutualfunddesc",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "isSymbolNormalized": 0,
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071648,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071648",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "955340539",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 3,
+              "holdingType": "bond",
+              "localizedHoldingType": "bond",
+              "holdingId": 10071649,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 230,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "dailyChange": {
+                "amount": 300,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 1200,
+              "nextCouponDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "moodyRating": "bondmodyrating",
+              "nextCallDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "price": {
+                "amount": 1500,
+                "currencyCode": "USD"
+              },
+              "yieldToCall": 2000,
+              "costBasis": {
+                "amount": 3500,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 5400,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "bondrisk",
+              "couponRate": 2000,
+              "currentYield": 2300,
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "nominalYield": 2700,
+              "internalRefNo": "string",
+              "quantity": 2000,
+              "fiAssetClass": "FIAssetClass",
+              "value": {
+                "amount": 5600,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2300,
+                "currencyCode": "USD"
+              },
+              "parValue": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentageChange": 2000,
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "yieldToMaturity": 2400,
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "bonddesc",
+              "callPrice": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "expirationDate": {},
+              "maturityDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "scrapedPrice": {
+                "amount": 1500,
+                "currencyCode": "USD"
+              },
+              "scrapedQuantity": 2000,
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071649,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071649",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "955340540",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 4,
+              "holdingType": "CD",
+              "localizedHoldingType": "CD",
+              "holdingId": 10071650,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "faceValue": {
+                "amount": 5660,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "daysRemaining": 2340,
+              "nextCallDate": {},
+              "interestRate": 2000,
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "CDRisk",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "string",
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "CDDesc",
+              "expirationDate": {},
+              "maturityDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071650,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071650",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "944440540",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 9,
+              "holdingType": "future",
+              "localizedHoldingType": "future",
+              "holdingId": 10071656,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "futureHoldingName": "string",
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "dailyChange": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "future",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "4567",
+              "quantity": 2000,
+              "value": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentageChange": 2000,
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "symbol": "future",
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "future",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "isSymbolNormalized": 0,
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071656,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071656",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "955340110",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 5,
+              "holdingType": "option",
+              "localizedHoldingType": "option",
+              "holdingId": 10071652,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "percentAllocation": 30,
+              "nextCouponDate": {},
+              "daysRemaining": 600,
+              "contractAdjustment": 260,
+              "nextCallDate": {},
+              "price": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "strikePrice": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 2589,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "string",
+              "isSettleTypeAmerican": 0,
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "string",
+              "quantity": 2000,
+              "fiAssetClass": "option",
+              "value": {
+                "amount": 20670,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "symbol": "option",
+              "isShort": 0,
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "option",
+              "expirationDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "isSymbolNormalized": 0,
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071652,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071652",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "934560540",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 11,
+              "holdingType": "currency",
+              "localizedHoldingType": "currency",
+              "holdingId": 10071653,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 4340,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "dailyChange": {
+                "amount": 234,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 253,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 253,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 23430,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "currency",
+              "currencyType": "currency",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "string",
+              "quantity": 24340,
+              "value": {
+                "amount": 25430,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 234,
+                "currencyCode": "USD"
+              },
+              "percentageChange": 2000,
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "currency",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071653,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071653",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "9453250",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 10,
+              "holdingType": "commodity",
+              "localizedHoldingType": "commodity",
+              "holdingId": 10071654,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "commodity",
+              "commodityType": "commodity",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "3444",
+              "value": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "link": "http://www.altova.com",
+              "contractQuantity": 2000,
+              "grantDate": {},
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "commodity",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071654,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071654",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "9553670",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 1,
+              "holdingType": "stock",
+              "localizedHoldingType": "stock",
+              "holdingId": 10071655,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "percentAllocation": 2000,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "costBasis": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "remic",
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "3457",
+              "quantity": 2000,
+              "value": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "remic",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071655,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071655",
+              "refreshTime": 1440104417
+            },
+            {
+              "optionTypeId": 0,
+              "optionType": "unknown",
+              "localizedOptionType": "unknown",
+              "isSeidFromDataSource": 1,
+              "bondTypeId": 0,
+              "bondType": "unknown",
+              "localizedBondType": "unknown",
+              "isSeidMod": 0,
+              "bondClassId": 2,
+              "bondClass": "unknown",
+              "localizedBondClass": "unknown",
+              "srcElementId": "955340120",
+              "mutualFundTypeId": 0,
+              "mutualFundType": "unknown",
+              "localizedMutualFundType": "unknown",
+              "holdingTypeId": 6,
+              "holdingType": "moneyMarketFund",
+              "localizedHoldingType": "moneyMarketFund",
+              "holdingId": 10071651,
+              "investmentAccountId": 10027471,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lastContributionDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastContribution": {
+                "amount": 2960,
+                "currencyCode": "USD"
+              },
+              "callTypeId": 2,
+              "callType": "unknown",
+              "localizedCallType": "unknown",
+              "dailyChange": {
+                "amount": 2500,
+                "currencyCode": "USD"
+              },
+              "percentAllocation": 2650,
+              "nextCouponDate": {},
+              "nextCallDate": {},
+              "price": {
+                "amount": 2550,
+                "currencyCode": "USD"
+              },
+              "employerContribution": {
+                "amount": 2360,
+                "currencyCode": "USD"
+              },
+              "vestingDate": {},
+              "stockOptionTypeId": 1,
+              "stockOptionType": "unknown",
+              "localizedStockOptionType": "unknown",
+              "riskCategory": "12",
+              "mmfNumber": 2078,
+              "assetClassId": 0,
+              "assetClass": "unknown",
+              "localizedAssetClass": "unknown",
+              "internalRefNo": "11111",
+              "quantity": 2000,
+              "value": {
+                "amount": 3400,
+                "currencyCode": "USD"
+              },
+              "employeeContribution": {
+                "amount": 2370,
+                "currencyCode": "USD"
+              },
+              "link": "http://www.altova.com",
+              "grantDate": {},
+              "symbol": "moneyMarketFund",
+              "couponFreqId": 2,
+              "couponFreq": "unknown",
+              "localizedCouponFreq": "unknown",
+              "description": "moneyMarketFund",
+              "expirationDate": {},
+              "maturityDate": {},
+              "yieldAsofDate": {},
+              "domicile": "US",
+              "isSymbolNormalized": 0,
+              "cacheItemId": 10131018,
+              "isItemAccountDeleted": 0,
+              "accountId": 10071651,
+              "level": 2,
+              "itemAccountId": 10150673,
+              "baseTagDataId": "HOLDING:10131018:2:10071651",
+              "refreshTime": 1440104417
+            }
+          ],
+          "isPaperlessStmtOn": 0,
+          "investmentAccBalance": {
+            "amount": 1406750789,
+            "currencyCode": "USD"
+          },
+          "created": 1440104416,
+          "accountClassification": {
+            "accountClassificationId": 2,
+            "accountClassification": "PERSONAL"
+          },
+          "itemDataTableId": 47,
+          "itemAccountStatusId": 1,
+          "includeInNetworth": 1,
+          "isLinkedItemAccount": false,
+          "rowLastUpdated": "2015-08-20T14:00:16-0700",
+          "isUpdatePastTransaction": false,
+          "isUpdateTxCategory": true,
+          "createOpeningTxn": true,
+          "isEbillEnrolledAccount": false,
+          "isDocumentAvailable": false,
+          "cacheItemId": 10131018,
+          "isItemAccountDeleted": 0,
+          "accountId": 10027471,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Investments - DAG INVESTMENT"
+          },
+          "itemAccountId": 10150673,
+          "baseTagDataId": "INVESTMENT_ACCOUNT:10131018:0:10027471",
+          "refreshTime": 1440104417
+        }
+      ]
+    },
+    "itemStatus": 0,
+    "isHeld": 0,
+    "secondsSinceLastUpdated": 150,
+    "exchangeRate": 1,
+    "isSharedItem": false,
+    "isPrepop": false,
+    "memSiteAccId": 10083324
+  },
+  {
+    "itemId": 10130819,
+    "contentServiceId": 20563,
+    "contentServiceInfo": {
+      "contentServiceId": 20563,
+      "siteId": 16441,
+      "containerInfo": {
+        "containerName": "loans",
+        "assetType": 2
+      }
+    },
+    "itemDisplayName": "Dag Site - Loan",
+    "refreshInfo": {
+      "itemId": 10130819,
+      "statusCode": 0,
+      "refreshType": 2,
+      "refreshRequestTime": 0,
+      "lastUpdatedTime": 1440104417,
+      "lastUpdateAttemptTime": 1440104417,
+      "itemAccessStatus": {
+        "name": "ACCESS_VERIFIED"
+      },
+      "userActionRequiredType": {
+        "name": "NONE"
+      },
+      "userActionRequiredCode": 0,
+      "lastDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:17-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastUserRequestedDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:17-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastSuccessfulDataUpdate": "2015-08-20T14:00:17-0700",
+      "itemCreateDate": "2015-08-20T14:00:16-0700",
+      "nextUpdateTime": 1440754808,
+      "responseCodeType": {
+        "responseCodeTypeId": 1
+      },
+      "retryCount": 0,
+      "refreshMode": "NORMAL"
+    },
+    "isCustom": false,
+    "isDisabled": false,
+    "isItemRefreshInProgress": false,
+    "isOauthEnabled": false,
+    "itemData": {
+      "accounts": [
+        {
+          "personInformationId": 10103065,
+          "loanLoginAccountId": 10022481,
+          "isDeleted": 0,
+          "lastUpdated": 1440104417,
+          "hasDetails": 1,
+          "loanAccountNumber": "xx6786",
+          "loans": [
+            {
+              "isSeidFromDataSource": 1,
+              "isSeidMod": 0,
+              "srcElementId": "-222243530",
+              "loanInterestRateTypeId": 3,
+              "loanInterestRateType": "Variable",
+              "localizedLoanInterestRateType": "Variable",
+              "loanId": 10022196,
+              "loanLoginAccountId": 10022481,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "lender": "Dileep",
+              "accountNumber": "xxxx2334",
+              "transListToDate": {},
+              "transListFromDate": {},
+              "lastPaymentAmount": {
+                "amount": 10000,
+                "currencyCode": "USD"
+              },
+              "principalBalance": {
+                "amount": 2000,
+                "currencyCode": "USD"
+              },
+              "originalLoanAmount": {
+                "amount": 3000,
+                "currencyCode": "USD"
+              },
+              "interestPaidYtd": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "interestPaidLastYear": {
+                "amount": 14000,
+                "currencyCode": "USD"
+              },
+              "amountDue": {
+                "amount": 14000,
+                "currencyCode": "USD"
+              },
+              "minPayment": {
+                "amount": 200,
+                "currencyCode": "USD"
+              },
+              "paymentAddress2": "efdf",
+              "paymentCountry": "USA",
+              "paymentState": "Newyork",
+              "paymentZip": "12345",
+              "paymentAddress1": "abcd",
+              "paymentCity": "US",
+              "paymentFullAddress": "SomeCity",
+              "loanTypeId": 10,
+              "loanType": "Other",
+              "localizedLoanType": "Other",
+              "firstPaymentDate": {
+                "date": "2013-01-25T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "interestRate": 7,
+              "loanFrequencyTypeId": 0,
+              "loanFrequencyType": "Unknown",
+              "localizedLoanFrequencyType": "Unknown",
+              "dueDate": {
+                "date": "2012-01-25T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "link": "http://abc.com",
+              "lastPaymentDate": {
+                "date": "2013-01-25T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "derivedAutopayEnrollmentStatusId": 0,
+              "derivedAutopayEnrollmentStatus": "unknown",
+              "localizedDerivedAutopayEnrollmentStatus": "unknown",
+              "collateral": "ABC",
+              "description": "Something About DAG",
+              "accountName": "Super CD Plus",
+              "stmtListToDate": {},
+              "stmtListFromDate": {},
+              "originationDate": {
+                "date": "2013-01-22T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "maturityDate": {
+                "date": "2013-01-25T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "userAutopayEnrollmentStatus": "unknown",
+              "localizedUserAutopayEnrollmentStatus": "unknown",
+              "derivedAutopayEnrollmentStatusLastUpdated": 1440104417,
+              "autopayEnrollmentStatusId": 0,
+              "autopayEnrollmentStatus": "unknown",
+              "localizedAutopayEnrollmentStatus": "unknown",
+              "isPaperlessStmtOn": 0,
+              "asOfDate": {},
+              "created": 1440104417,
+              "totalAccountBalance": {
+                "amount": 2000,
+                "currencyCode": "USD"
+              },
+              "itemDataTableId": 54,
+              "itemAccountStatusId": 1,
+              "includeInNetworth": 1,
+              "isLinkedItemAccount": false,
+              "rowLastUpdated": "2015-08-20T14:00:17-0700",
+              "isUpdatePastTransaction": false,
+              "isUpdateTxCategory": true,
+              "createOpeningTxn": true,
+              "isEbillEnrolledAccount": false,
+              "isDocumentAvailable": false,
+              "cacheItemId": 10131019,
+              "isItemAccountDeleted": 0,
+              "accountId": 10022196,
+              "level": 1,
+              "accountDisplayName": {
+                "defaultNormalAccountName": "Dag Site - Loan - Super CD Plus"
+              },
+              "itemAccountId": 10150675,
+              "baseTagDataId": "LOAN:10131019:1:10022196",
+              "refreshTime": 1440104417
+            }
+          ],
+          "cacheItemId": 10131019,
+          "isItemAccountDeleted": 0,
+          "accountId": 10022481,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Loan - #"
+          },
+          "baseTagDataId": "LOAN_LOGIN_ACCOUNT:10131019:0:10022481",
+          "refreshTime": 1440104417
+        }
+      ]
+    },
+    "itemStatus": 0,
+    "isHeld": 0,
+    "secondsSinceLastUpdated": 150,
+    "exchangeRate": 1,
+    "isSharedItem": false,
+    "isPrepop": false,
+    "memSiteAccId": 10083324
+  },
+  {
+    "itemId": 10130816,
+    "contentServiceId": 20561,
+    "contentServiceInfo": {
+      "contentServiceId": 20561,
+      "siteId": 16441,
+      "containerInfo": {
+        "containerName": "credits",
+        "assetType": 2
+      }
+    },
+    "itemDisplayName": "Dag Site - Credit Card",
+    "refreshInfo": {
+      "itemId": 10130816,
+      "statusCode": 0,
+      "refreshType": 2,
+      "refreshRequestTime": 0,
+      "lastUpdatedTime": 1440104416,
+      "lastUpdateAttemptTime": 1440104416,
+      "itemAccessStatus": {
+        "name": "ACCESS_VERIFIED"
+      },
+      "userActionRequiredType": {
+        "name": "NONE"
+      },
+      "userActionRequiredCode": 0,
+      "lastDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastUserRequestedDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastSuccessfulDataUpdate": "2015-08-20T14:00:16-0700",
+      "itemCreateDate": "2015-08-20T14:00:16-0700",
+      "nextUpdateTime": 1440200585,
+      "responseCodeType": {
+        "responseCodeTypeId": 1
+      },
+      "retryCount": 0,
+      "refreshMode": "NORMAL"
+    },
+    "isCustom": false,
+    "isDisabled": false,
+    "isItemRefreshInProgress": false,
+    "isOauthEnabled": false,
+    "itemData": {
+      "accounts": [
+        {
+          "isSeidFromDataSource": 1,
+          "isSeidMod": 0,
+          "acctTypeId": 15,
+          "acctType": "credit",
+          "localizedAcctType": "credit",
+          "srcElementId": "232323",
+          "cardAccountId": 10052419,
+          "isDeleted": 0,
+          "lastUpdated": 1440104416,
+          "hasDetails": 0,
+          "accountNumber": "xxxx2334",
+          "cashApr": 103.5,
+          "accountHolder": "Bill Gates",
+          "tranListToDate": {
+            "date": "2013-01-22T00:00:00-0800"
+          },
+          "tranListFromDate": {
+            "date": "2013-01-21T00:00:00-0800"
+          },
+          "company": "zensutra",
+          "amountDue": {
+            "amount": 100,
+            "currencyCode": "USD"
+          },
+          "minPayment": {
+            "amount": 1000,
+            "currencyCode": "USD"
+          },
+          "runningBalance": {
+            "amount": 11756.88,
+            "currencyCode": "USD"
+          },
+          "newCharges": {
+            "amount": 3433.67,
+            "currencyCode": "USD"
+          },
+          "lastPayment": {
+            "amount": 5000.67,
+            "currencyCode": "USD"
+          },
+          "availableCredit": {
+            "amount": 1000,
+            "currencyCode": "USD"
+          },
+          "totalCreditLine": {
+            "amount": 100,
+            "currencyCode": "USD"
+          },
+          "totalCashLimit": {
+            "amount": 100,
+            "currencyCode": "USD"
+          },
+          "asofDate": {
+            "date": "2012-01-20T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "dueDate": {
+            "date": "2013-02-14T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "link": "http://abc.com",
+          "lastPaymentDate": {
+            "date": "2013-12-30T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "derivedAutopayEnrollmentStatusId": 0,
+          "derivedAutopayEnrollmentStatus": "unknown",
+          "localizedDerivedAutopayEnrollmentStatus": "unknown",
+          "stmtListToDate": {},
+          "stmtListFromDate": {},
+          "apr": 15.25,
+          "accountName": "Super CD Plus",
+          "userAutopayEnrollmentStatus": "unknown",
+          "localizedUserAutopayEnrollmentStatus": "unknown",
+          "derivedAutopayEnrollmentStatusLastUpdated": 1440104416,
+          "autopayEnrollmentStatusId": 0,
+          "autopayEnrollmentStatus": "unknown",
+          "localizedAutopayEnrollmentStatus": "unknown",
+          "isPaperlessStmtOn": 0,
+          "created": 1440104416,
+          "accountClassification": {
+            "accountClassificationId": 2,
+            "accountClassification": "PERSONAL"
+          },
+          "itemDataTableId": 18,
+          "itemAccountStatusId": 1,
+          "includeInNetworth": 1,
+          "isLinkedItemAccount": false,
+          "rowLastUpdated": "2015-08-20T14:00:16-0700",
+          "isUpdatePastTransaction": false,
+          "isUpdateTxCategory": true,
+          "createOpeningTxn": true,
+          "isEbillEnrolledAccount": false,
+          "isDocumentAvailable": false,
+          "cacheItemId": 10131016,
+          "isItemAccountDeleted": 0,
+          "accountId": 10052419,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Credit Card - Super CD Plus"
+          },
+          "itemAccountId": 10150672,
+          "baseTagDataId": "CARD_ACCOUNT:10131016:0:10052419",
+          "refreshTime": 1440104416
+        }
+      ]
+    },
+    "itemStatus": 0,
+    "isHeld": 0,
+    "secondsSinceLastUpdated": 151,
+    "exchangeRate": 1,
+    "isSharedItem": false,
+    "isPrepop": false,
+    "memSiteAccId": 10083324
+  },
+  {
+    "itemId": 10130817,
+    "contentServiceId": 20562,
+    "contentServiceInfo": {
+      "contentServiceId": 20562,
+      "siteId": 16441,
+      "containerInfo": {
+        "containerName": "insurance",
+        "assetType": 2
+      }
+    },
+    "itemDisplayName": "Dag Site - Insurance",
+    "refreshInfo": {
+      "itemId": 10130817,
+      "statusCode": 0,
+      "refreshType": 2,
+      "refreshRequestTime": 0,
+      "lastUpdatedTime": 1440104416,
+      "lastUpdateAttemptTime": 1440104416,
+      "itemAccessStatus": {
+        "name": "ACCESS_VERIFIED"
+      },
+      "userActionRequiredType": {
+        "name": "NONE"
+      },
+      "userActionRequiredCode": 0,
+      "lastDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastUserRequestedDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:16-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastSuccessfulDataUpdate": "2015-08-20T14:00:16-0700",
+      "itemCreateDate": "2015-08-20T14:00:16-0700",
+      "nextUpdateTime": 1440753870,
+      "responseCodeType": {
+        "responseCodeTypeId": 1
+      },
+      "retryCount": 0,
+      "refreshMode": "NORMAL"
+    },
+    "isCustom": false,
+    "isDisabled": false,
+    "isItemRefreshInProgress": false,
+    "isOauthEnabled": false,
+    "itemData": {
+      "accounts": [
+        {
+          "personInformationId": 10103102,
+          "insLoginAccountId": 10020998,
+          "isDeleted": 0,
+          "lastUpdated": 1440104416,
+          "hasDetails": 1,
+          "insurancePolicys": [
+            {
+              "isSeidFromDataSource": 1,
+              "isSeidMod": 0,
+              "srcElementId": "23111",
+              "agentPersonInformationId": 10103103,
+              "insuranceId": 10021112,
+              "insLoginAccountId": 10020998,
+              "isDeleted": 0,
+              "lastUpdated": 1440104416,
+              "hasDetails": 0,
+              "accountNumber": "xxx5556",
+              "policyTermFromDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "transListToDate": {},
+              "transListFromDate": {},
+              "premiumAmount": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "adjustablePremiumAmount": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "levelPremiumAmount": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "deductible": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "minimumAmountDue": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "installmentAmount": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "lastPayment": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "remainingBalance": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "amountDue": {
+                "amount": 5000,
+                "currencyCode": "USD"
+              },
+              "paymentAddress2": "Geneva House",
+              "paymentCountry": "USA",
+              "paymentState": "California",
+              "paymentZip": "12345",
+              "paymentAddress1": "14,Cunningham Road",
+              "paymentCity": "New York",
+              "paymentFulladdress": "California, USA",
+              "policyStatusId": 5,
+              "policyStatus": "Active",
+              "localizedPolicyStatus": "Active",
+              "asOf": {
+                "date": "2013-01-07T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "effectiveDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "dueDate": {
+                "date": "2013-01-07T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "lastPaymentDate": {
+                "date": "2013-01-05T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "derivedAutopayEnrollmentStatusId": 0,
+              "derivedAutopayEnrollmentStatus": "unknown",
+              "localizedDerivedAutopayEnrollmentStatus": "unknown",
+              "policyTermToDate": {
+                "date": "2013-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "accountName": "DAG INSURANCE",
+              "provider": "aaaaaaa",
+              "lifeInsuranceTypeId": 0,
+              "lifeInsuranceType": "Unknown",
+              "localizedLifeInsuranceType": "Unknown",
+              "isRenewedPolicy": 0,
+              "link": "http://www.altova.com",
+              "homeInsuranceTypeId": 0,
+              "homeInsuranceType": "Unknown",
+              "localizedHomeInsuranceType": "Unknown",
+              "insuranceTypeId": 1,
+              "insuranceType": "Other",
+              "localizedInsuranceType": "Other",
+              "stmtListToDate": {},
+              "stmtListFromDate": {},
+              "expirationDate": {
+                "date": "2014-01-17T00:00:00-0800",
+                "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+              },
+              "userAutopayEnrollmentStatus": "unknown",
+              "localizedUserAutopayEnrollmentStatus": "unknown",
+              "derivedAutopayEnrollmentStatusLastUpdated": 1440104416,
+              "autopayEnrollmentStatusId": 0,
+              "autopayEnrollmentStatus": "unknown",
+              "localizedAutopayEnrollmentStatus": "unknown",
+              "isPaperlessStmtOn": 0,
+              "created": 1440104417,
+              "itemDataTableId": 32,
+              "itemAccountStatusId": 1,
+              "includeInNetworth": 0,
+              "isLinkedItemAccount": false,
+              "rowLastUpdated": "2015-08-20T14:00:17-0700",
+              "isUpdatePastTransaction": false,
+              "isUpdateTxCategory": true,
+              "createOpeningTxn": true,
+              "isEbillEnrolledAccount": false,
+              "isDocumentAvailable": false,
+              "cacheItemId": 10131017,
+              "isItemAccountDeleted": 0,
+              "accountId": 10021112,
+              "level": 1,
+              "accountDisplayName": {
+                "defaultNormalAccountName": "Dag Site - Insurance - DAG INSURANCE"
+              },
+              "itemAccountId": 10150716,
+              "baseTagDataId": "INSURANCE:10131017:1:10021112",
+              "refreshTime": 1440104416
+            }
+          ],
+          "cacheItemId": 10131017,
+          "isItemAccountDeleted": 0,
+          "accountId": 10020998,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Insurance - #"
+          },
+          "baseTagDataId": "INS_LOGIN_ACCOUNT:10131017:0:10020998",
+          "refreshTime": 1440104416
+        }
+      ]
+    },
+    "itemStatus": 0,
+    "isHeld": 0,
+    "secondsSinceLastUpdated": 151,
+    "exchangeRate": 1,
+    "isSharedItem": false,
+    "isPrepop": false,
+    "memSiteAccId": 10083324
+  },
+  {
+    "itemId": 10130820,
+    "contentServiceId": 20564,
+    "contentServiceInfo": {
+      "contentServiceId": 20564,
+      "siteId": 16441,
+      "containerInfo": {
+        "containerName": "miles",
+        "assetType": 0
+      }
+    },
+    "itemDisplayName": "Dag Site - Rewards",
+    "refreshInfo": {
+      "itemId": 10130820,
+      "statusCode": 0,
+      "refreshType": 2,
+      "refreshRequestTime": 0,
+      "lastUpdatedTime": 1440104417,
+      "lastUpdateAttemptTime": 1440104417,
+      "itemAccessStatus": {
+        "name": "ACCESS_VERIFIED"
+      },
+      "userActionRequiredType": {
+        "name": "NONE"
+      },
+      "userActionRequiredCode": 0,
+      "lastDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:17-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastUserRequestedDataUpdateAttempt": {
+        "date": "2015-08-20T14:00:17-0700",
+        "status": {
+          "name": "SUCCESS"
+        },
+        "statusCode": 0,
+        "type": {
+          "name": "USER_REQUESTED"
+        }
+      },
+      "lastSuccessfulDataUpdate": "2015-08-20T14:00:17-0700",
+      "itemCreateDate": "2015-08-20T14:00:16-0700",
+      "nextUpdateTime": 1440708303,
+      "responseCodeType": {
+        "responseCodeTypeId": 1
+      },
+      "retryCount": 0,
+      "refreshMode": "NORMAL"
+    },
+    "isCustom": false,
+    "isDisabled": false,
+    "isItemRefreshInProgress": false,
+    "isOauthEnabled": false,
+    "itemData": {
+      "accounts": [
+        {
+          "isSeidFromDataSource": 1,
+          "isSeidMod": 0,
+          "srcElementId": "-2062207438",
+          "rewardPgmId": 10022999,
+          "isDeleted": 0,
+          "lastUpdated": 1440104417,
+          "hasDetails": 0,
+          "primaryRewardUnit": "Rew Unit",
+          "nextLevel": "NEXT LEVEL",
+          "currentLevel": "CUR LEVEL",
+          "enrolDate": {
+            "date": "2002-08-25T00:00:00-0700",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "link": "http://abc.com",
+          "lastActivityDate": {},
+          "memberName": "YODLEE",
+          "asOfDate": {
+            "date": "2013-01-25T00:00:00-0800",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "created": 1440104416,
+          "rewardsBalances": [
+            {
+              "isSeidFromDataSource": 0,
+              "isSeidMod": 0,
+              "srcElementId": "1801718680",
+              "rewardBalId": 10050488,
+              "rewardPgmId": 10022999,
+              "isDeleted": 0,
+              "lastUpdated": 1440104417,
+              "hasDetails": 0,
+              "expiryDate": {},
+              "balanceAmount": 34567.98,
+              "balanceAmt": "34567.98",
+              "rewardBalType": "unknown",
+              "localizedRewardBalType": "unknown",
+              "balanceDesc": "DESC",
+              "cacheItemId": 10131020,
+              "isItemAccountDeleted": 0,
+              "accountId": 10050488,
+              "level": 2,
+              "itemAccountId": 10150674,
+              "baseTagDataId": "REWARD_BALANCE:10131020:2:10050488",
+              "refreshTime": 1440104417
+            }
+          ],
+          "accountOpenDate": {
+            "date": "2002-08-25T00:00:00-0700",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "accountCloseDate": {
+            "date": "2015-08-25T00:00:00-0700",
+            "localFormat": "MM/dd/yyyy'T'HH:mm:ss"
+          },
+          "balanceUnit": "Rew Unit",
+          "itemDataTableId": 76,
+          "itemAccountStatusId": 1,
+          "includeInNetworth": 1,
+          "isLinkedItemAccount": false,
+          "rowLastUpdated": "2015-08-20T14:00:16-0700",
+          "isUpdatePastTransaction": false,
+          "isUpdateTxCategory": true,
+          "createOpeningTxn": true,
+          "isEbillEnrolledAccount": false,
+          "isDocumentAvailable": false,
+          "cacheItemId": 10131020,
+          "isItemAccountDeleted": 0,
+          "accountId": 10022999,
+          "level": 0,
+          "accountDisplayName": {
+            "defaultNormalAccountName": "Dag Site - Rewards"
+          },
+          "itemAccountId": 10150674,
+          "baseTagDataId": "REWARD_PGM:10131020:0:10022999",
+          "refreshTime": 1440104417
+        }
+      ]
+    },
+    "itemStatus": 0,
+    "isHeld": 0,
+    "secondsSinceLastUpdated": 150,
+    "exchangeRate": 0,
+    "isSharedItem": false,
+    "isPrepop": false,
+    "memSiteAccId": 10083324
+  }
+]
