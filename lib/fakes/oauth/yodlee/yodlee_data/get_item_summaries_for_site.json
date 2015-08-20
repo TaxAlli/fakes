@@ -1,3 +1,102 @@
 {
-  "key": {}
+  "itemId":1111357731,
+  "contentServiceId":10825,
+  "contentServiceInfo":{
+    "contentServiceId":10825
+  },
+  "itemDisplayName":"Itaú Unibanco (Custom Bank) - Cable&Satellite Bills",
+  "refreshInfo":{
+    "itemId":1111357731,
+    "statusCode":801,
+    "refreshType":1,
+    "refreshRequestTime":0,
+    "lastUpdatedTime":1360839043,
+    "lastUpdateAttemptTime":0,
+    "itemAccessStatus":{
+      "name":"ACCESS_NOT_VERIFIED"
+    },
+    "userActionRequiredType":{
+      "name":"NONE"
+    },
+    "userActionRequiredSince":"Feb 14, 2013 4:20:43 PM",
+    "itemCreateDate":"Feb 14, 2013 4:20:43 PM",
+    "nextUpdateTime":1375060011,
+    "responseCodeType":{
+      "responseCodeTypeId":1
+    },
+    "retryCount":0,
+    "refreshMode":"NORMAL"
+  },
+  "isCustom":true,
+  "isDisabled":false,
+  "itemData":{
+    "accounts":[
+      {
+        "isSeidMod":0,
+        "acctTypeId":0,
+        "acctType":"Unknown",
+        "localizedAcctType":"Unknown",
+        "billPreferenceId":131174,
+        "billingAccountId":1659263,
+        "customName":"manualaccount",
+        "isDeleted":0,
+        "lastUpdated":1360839043,
+        "hasDetails":0,
+        "accountNumber":"xxxx7890",
+        "dueDate":{
+          "date":"Feb 21, 2013 12:00:00 AM"
+        },
+        "lastPaymentDate":{
+
+        },
+        "derivedAutopayEnrollmentStatusId":0,
+        "derivedAutopayEnrollmentStatus":"unknown",
+        "localizedDerivedAutopayEnrollmentStatus":"unknown",
+        "accountName":"manualaccount",
+        "userAutopayEnrollmentStatusId":0,
+        "userAutopayEnrollmentStatus":"unknown",
+        "localizedUserAutopayEnrollmentStatus":"unknown",
+        "billListToDate":{
+
+        },
+        "billListFromDate":{
+
+        },
+        "autopayEnrollmentStatusId":0,
+        "autopayEnrollmentStatus":"unknown",
+        "localizedAutopayEnrollmentStatus":"unknown",
+        "asofDate":{
+
+        },
+        "created":1360839043,
+        "nickName":"MA",
+        "itemDataTableId":13,
+        "itemAccountStatusId":1,
+        "includeInNetworth":0,
+        "isAsset":0,
+        "isLinkedItemAccount":false,
+        "itemAccountExtensions":[
+          "CUSTOM_ACCOUNT"
+        ],
+        "isUpdatePastTransaction":false,
+        "isUpdateTxCategory":true,
+        "createOpeningTxn":true,
+        "cacheItemId":79896503,
+        "isItemAccountDeleted":0,
+        "accountId":1659263,
+        "level":0,
+        "accountDisplayName":{
+          "defaultNormalAccountName":"manualaccount (MA) "
+        },
+        "itemAccountId":3690226,
+        "baseTagDataId":"BILLING_ACCOUNT:79896503:0:1659263",
+        "refreshTime":1360839043
+      }
+    ]
+  },
+  "itemStatus":0,
+  "isHeld":0,
+  "isSharedItem":false,
+  "isPrepop":false,
+  "memSiteAccId":899897
 }
