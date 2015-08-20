@@ -23,11 +23,11 @@ module Fakes
         json_response 200, 'get_site_refresh_info.json', 'yodlee'
       end
 
-      app.post "/jsonsdk/SiteAccountManagement/removeSiteAccount" do
+      app.post "/services/srest/restserver/v1.0/jsonsdk/SiteAccountManagement/removeSiteAccount" do
         json_response 200, 'remove_site_account.json', 'yodlee'
       end
 
-      app.post "/jsonsdk/DataService/getItemSummariesForSite" do
+      app.post "/services/srest/restserver/v1.0/jsonsdk/DataService/getItemSummariesForSite" do
         json_response 200, 'get_item_summaries_for_site.json', 'yodlee'
       end
 
