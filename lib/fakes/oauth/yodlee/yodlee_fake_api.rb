@@ -31,6 +31,10 @@ module Fakes
         json_response 200, 'get_item_summaries_for_site.json', 'yodlee'
       end
 
+      app.post '/jsonsdk/TransactionSearchService/executeUserSearchRequest' do
+
+      end
+
     end
 
     def json_response
