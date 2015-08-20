@@ -31,8 +31,8 @@ module Fakes
         json_response 200, 'get_item_summaries_for_site.json', 'yodlee'
       end
 
-      app.post '/jsonsdk/TransactionSearchService/executeUserSearchRequest' do
-
+      app.post '/services/srest/restserver/v1.0/jsonsdk/TransactionSearchService/executeUserSearchRequest' do
+        json_response 200, 'execute_user_search_request', 'yodlee'
       end
 
     end
