@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fakes (0.1.7)
+    fakes (0.1.8)
       sinatra (~> 1.4.4)
 
 GEM

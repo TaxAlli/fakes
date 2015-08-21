@@ -1,3 +1,3 @@
 module Fakes
-  VERSION = "0.1.8"
+  VERSION = "0.1.21"
 end
