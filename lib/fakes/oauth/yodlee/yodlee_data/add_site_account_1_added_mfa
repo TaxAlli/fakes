@@ -1,0 +1,125 @@
+{
+  "siteAccountId": 10083324,
+  "isCustom": false,
+  "credentialsChangedTime": 1440104413,
+  "siteRefreshInfo": {
+    "siteRefreshStatus": {
+      "siteRefreshStatusId": 1,
+      "siteRefreshStatus": "REFRESH_TRIGGERED"
+    },
+    "siteRefreshMode": {
+      "refreshModeId": 2,
+      "refreshMode": "MFA"
+    },
+    "updateInitTime": 1440104944,
+    "nextUpdate": 1440105844,
+    "code": 0,
+    "suggestedFlow": {
+      "suggestedFlowId": 2,
+      "suggestedFlow": "REFRESH"
+    },
+    "itemRefreshInfo": [
+      {
+        "memItemId": 10130814,
+        "itemSuggestedFlow": {
+          "suggestedFlowId": 2,
+          "suggestedFlow": "REFRESH"
+        },
+        "errorCode": 0,
+        "retryCount": 0
+      },
+      {
+        "memItemId": 10130815,
+        "itemSuggestedFlow": {
+          "suggestedFlowId": 2,
+          "suggestedFlow": "REFRESH"
+        },
+        "errorCode": 0,
+        "retryCount": 0
+      },
+      {
+        "memItemId": 10130816,
+        "itemSuggestedFlow": {
+          "suggestedFlowId": 2,
+          "suggestedFlow": "REFRESH"
+        },
+        "errorCode": 0,
+        "retryCount": 0
+      },
+      {
+        "memItemId": 10130817,
+        "itemSuggestedFlow": {
+          "suggestedFlowId": 2,
+          "suggestedFlow": "REFRESH"
+        },
+        "errorCode": 0,
+        "retryCount": 0
+      },
+      {
+        "memItemId": 10130818,
+        "itemSuggestedFlow": {
+          "suggestedFlowId": 2,
+          "suggestedFlow": "REFRESH"
+        },
+        "errorCode": 0,
+        "retryCount": 0
+      },
+      {
+        "memItemId": 10130819,
+        "itemSuggestedFlow": {
+          "suggestedFlowId": 2,
+          "suggestedFlow": "REFRESH"
+        },
+        "errorCode": 0,
+        "retryCount": 0
+      },
+      {
+        "memItemId": 10130820,
+        "itemSuggestedFlow": {
+          "suggestedFlowId": 2,
+          "suggestedFlow": "REFRESH"
+        },
+        "errorCode": 0,
+        "retryCount": 0
+      }
+    ],
+    "noOfRetry": 0,
+    "isMFAInputRequired": false,
+    "siteAddStatus": {
+      "siteAddStatusId": 14,
+      "siteAddStatus": "ADDED"
+    }
+  },
+  "siteInfo": {
+    "popularity": 0,
+    "siteId": 16441,
+    "orgId": 1148,
+    "defaultDisplayName": "Dag Site SecurityQA",
+    "defaultOrgDisplayName": "Demo Bank",
+    "enabledContainers": [
+      {
+        "containerName": "bank",
+        "assetType": 1
+      },
+      {
+        "containerName": "credits",
+        "assetType": 2
+      }
+    ],
+    "baseUrl": "http://192.168.210.152:9090/dag/index.do",
+    "loginForms": [],
+    "isHeld": false,
+    "isCustom": false,
+    "siteSearchVisibility": true,
+    "isAlreadyAddedByUser": true,
+    "isOauthEnabled": false,
+    "hdLogoLastModified": 0,
+    "isHdLogoAvailable": false
+  },
+  "created": "2015-08-20T14:00:13-0700",
+  "retryCount": 0,
+  "disabled": false,
+  "isAgentError": false,
+  "isSiteError": false,
+  "isUARError": false
+}
