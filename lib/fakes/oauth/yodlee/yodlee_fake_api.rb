@@ -17,7 +17,7 @@ module Fakes
       app.post '/services/srest/restserver/v1.0/jsonsdk/SiteAccountManagement/addSiteAccount1' do
           request_body = request.body.read.to_s
           #if request_body.include? "16441"
-            json_response 200, 'add_site_account_1_added.json', 'yodlee'
+            json_response 200, 'add_site_account_1_added_mfa.json', 'yodlee'
           #elsif request_body.include? "16486"
           #  json_response 200, 'add_site_account_1_added_mfa', 'yodlee'
           #end
