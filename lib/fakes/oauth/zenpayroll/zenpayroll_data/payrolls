@@ -1,0 +1,67 @@
+[
+  {
+    "version" : "19289df18e6e20f797de4a585ea5a91535c7ddf7",
+    "payroll_deadline" : "2013-02-18",
+    "processed" : false,
+    "pay_period" : {
+      "start_date" : "2013-02-01",
+      "end_date" : "2013-02-15"
+    },
+    "totals" : {
+      "company_debit" : "2791.25",
+      "reimbursements" : "0.00",
+      "net_pay" : "1953.31",
+      "correction" : "0.00",
+      "employer_taxes" : "191.25",
+      "employee_taxes" : "646.69",
+      "benefits" : "0.0"
+    },
+    "employee_compensations" : [
+      {
+        "employee_id" : 1123581321345589,
+        "fixed_compensations" : [
+          {
+            "name" : "Bonus",
+            "amount" : "100.00",
+            "job_id" : 1
+          },
+          {
+            "name" : "Reimbursement",
+            "amount" : "100.00",
+            "job_id" : 1
+          }
+        ],
+        "hourly_compensations" : [
+          {
+            "name" : "Regular Hours",
+            "hours" : "80.000",
+            "job_id" : 1,
+            "compensation_multiplier" : 1
+          },
+          {
+            "name" : "Overtime",
+            "hours" : "20.000",
+            "job_id" : 1,
+            "compensation_multiplier" : 1.5
+          },
+          {
+            "name" : "Double Overtime",
+            "hours" : "0.000",
+            "job_id" : 1,
+            "compensation_multiplier" : 2
+          }
+        ],
+        "paid_time_off" : [
+          {
+            "name" : "Vacation Hours",
+            "hours" : "20.000"
+          },
+          {
+            "name" : "Sick Hours",
+            "hours" : "0.000"
+          }
+        ]
+      }
+    ]
+  }
+]
