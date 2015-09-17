@@ -5,19 +5,19 @@ module Fakes
 
       # fake cob session token
       app.post '/services/srest/restserver/v1.0/authenticate/coblogin' do
-        json_response 200, 'coblogin.json', 'yodlee'
+        json_response 200, 'coblogin', 'yodlee'
       end
 
       # fake user session token
       app.post '/services/srest/restserver/v1.0/authenticate/login' do
-        json_response 200, 'login.json', 'yodlee'
+        json_response 200, 'login', 'yodlee'
       end
 
       # fake add site account
       app.post '/services/srest/restserver/v1.0/jsonsdk/SiteAccountManagement/addSiteAccount1' do
         request_url = request.url
         if request_url.include? "siteId=16441"
-          json_response 200, 'add_site_account_1_added.json', 'yodlee'
+          json_response 200, 'add_site_account_1_added', 'yodlee'
         elsif request_url.include? "siteId=16486"
           json_response 200, 'add_site_account_1_added_mfa', 'yodlee'
         end
@@ -30,12 +30,12 @@ module Fakes
 
       # fake remove site account
       app.post '/services/srest/restserver/v1.0/jsonsdk/SiteAccountManagement/removeSiteAccount' do
-        json_response 200, 'remove_site_account.json', 'yodlee'
+        json_response 200, 'remove_site_account', 'yodlee'
       end
 
       # fake get item summaries for site
       app.post '/services/srest/restserver/v1.0/jsonsdk/DataService/getItemSummariesForSite' do
-        json_response 200, 'get_item_summaries_for_site.json', 'yodlee'
+        json_response 200, 'get_item_summaries_for_site', 'yodlee'
       end
 
       # fake execute user search request

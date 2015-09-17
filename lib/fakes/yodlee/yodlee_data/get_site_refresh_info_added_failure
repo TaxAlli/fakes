@@ -1,15 +1,15 @@
 {
   "siteRefreshStatus": {
-    "siteRefreshStatusId": 12,
-    "siteRefreshStatus": "REFRESH_COMPLETED_ACCOUNTS_ALREADY_AGGREGATED"
+    "siteRefreshStatusId": 3,
+    "siteRefreshStatus": "LOGIN_FAILURE"
   },
   "siteRefreshMode": {
     "refreshModeId": 2,
     "refreshMode": "NORMAL"
   },
   "updateInitTime": 0,
-  "nextUpdate": 1440610226,
-  "code": 0,
+  "nextUpdate": 1445096781,
+  "code": 402,
   "noOfRetry": 0,
   "isMFAInputRequired": false,
   "siteAddStatus": {

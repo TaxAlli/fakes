@@ -2,7 +2,6 @@ require 'fakes/oauth/emma/emma_fake_api'
 require 'fakes/oauth/eventbrite/eventbrite_fake_api'
 require 'fakes/oauth/infusionsoft/infusionsoft_fake_api'
 require 'fakes/oauth/quickbooks_online/quickbooks_online_fake_api'
-require 'fakes/oauth/yodlee/yodlee_fake_api'
 require 'fakes/oauth/zenpayroll/zenpayroll_fake_api'
 
 module Fakes
@@ -11,7 +10,6 @@ module Fakes
     register FakeEventbriteApi
     register FakeInfusionsoftApi
     register FakeQuickBooksOnlineApi
-    register FakeYodleeApi
     register FakeZenpayrollApi
 
     # fake token
@@ -24,7 +22,7 @@ module Fakes
       redirect params[:redirect_uri]
     end
 
-    private
+    protected
 
     def json_response(response_code, file_name, service)
       content_type :json
