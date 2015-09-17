@@ -109,10 +109,10 @@
           "created": "2015-07-09T23:51:26Z",
           "quantity": 1,
           "profile": {
-            "first_name": "Test",
-            "last_name": "test",
+            "first_name": "Kingsley",
+            "last_name": "Cool",
             "email": "miraclezheng0716@live.cn",
-            "name": "Test test",
+            "name": "Kingsley Cool",
             "addresses": {}
           },
           "barcodes": [
@@ -128,28 +128,88 @@
           "costs": {
             "payment_fee": {
               "currency": "USD",
-              "display": "$0.00",
-              "value": 0
+              "display": "$1.00",
+              "value": 100
             },
             "gross": {
               "currency": "USD",
-              "display": "$0.00",
-              "value": 0
+              "display": "$1.00",
+              "value": 100
             },
             "eventbrite_fee": {
               "currency": "USD",
-              "display": "$0.00",
-              "value": 0
+              "display": "$1.00",
+              "value": 100
             },
             "tax": {
               "currency": "USD",
-              "display": "$0.00",
-              "value": 0
+              "display": "$1.00",
+              "value": 100
             },
             "base_price": {
               "currency": "USD",
-              "display": "$0.00",
-              "value": 0
+              "display": "$1.00",
+              "value": 100
+            }
+          },
+          "checked_in": false,
+          "cancelled": false,
+          "refunded": false,
+          "affiliate": "enivtefor001",
+          "status": "Attending",
+          "event_id": "17718062201",
+          "order_id": "438359446",
+          "ticket_class_id": "37419917"
+        },
+        {
+          "team": null,
+          "resource_uri": "https://www.eventbriteapi.com/v3/events/17718062201/attendees/554107569/",
+          "id": "554107570",
+          "changed": "2015-07-09T23:51:39Z",
+          "created": "2015-07-09T23:51:26Z",
+          "quantity": 1,
+          "profile": {
+            "first_name": "Dee",
+            "last_name": "Awesome",
+            "email": "miraclezheng0716@live.cn",
+            "name": "Dee Awesome",
+            "addresses": {}
+          },
+          "barcodes": [
+            {
+              "status": "unused",
+              "barcode": "438359446554107569001",
+              "checkin_type": 0,
+              "created": "2015-07-09T23:51:39Z",
+              "changed": "2015-07-09T23:51:39Z"
+            }
+          ],
+          "answers": [],
+          "costs": {
+            "payment_fee": {
+              "currency": "USD",
+              "display": "$2.00",
+              "value": 200
+            },
+            "gross": {
+              "currency": "USD",
+              "display": "$2.00",
+              "value": 200
+            },
+            "eventbrite_fee": {
+              "currency": "USD",
+              "display": "$2.00",
+              "value": 200
+            },
+            "tax": {
+              "currency": "USD",
+              "display": "$2.00",
+              "value": 200
+            },
+            "base_price": {
+              "currency": "USD",
+              "display": "$2.00",
+              "value": 200
             }
           },
           "checked_in": false,
