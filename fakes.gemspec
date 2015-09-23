@@ -28,5 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "pry", "~> 0.10.1"
+  spec.add_development_dependency "rack-test", "> 0"
+  spec.add_development_dependency "rspec", "> 3"
   spec.add_runtime_dependency "sinatra", "~> 1.4.4"
 end

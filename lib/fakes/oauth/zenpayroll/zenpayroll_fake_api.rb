@@ -8,9 +8,9 @@ module Fakes
         json_response 200, 'payrolls', 'zenpayroll'
       end
 
-      # fake current_user
+      # fake current_user.json
       app.get '/api/v1/me' do
-        json_response 200, 'current_user', 'zenpayroll'
+        json_response 200, 'current_user.json', 'zenpayroll'
       end
     end
 

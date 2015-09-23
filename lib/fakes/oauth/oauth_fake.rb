@@ -27,7 +27,7 @@ module Fakes
     def json_response(response_code, file_name, service)
       content_type :json
       status response_code
-      File.open(File.dirname(__FILE__) +"/oauth/#{service}/#{service}_data/" + file_name, 'rb').read
+      File.open(File.dirname(__FILE__) +"/#{service}/#{service}_data/" + file_name, 'rb').read
     end
   end
 end
