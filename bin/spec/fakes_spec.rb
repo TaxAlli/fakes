@@ -21,4 +21,14 @@ describe Fakes do
     last_response.should be_ok
   end
 
+  it "returns an access token for zenpayroll" do
+    post 'oauth/zenpayroll/token'
+    last_response.should be_ok
+  end
+
+  it "zenpayroll me request works" do
+    get 'api/v1/me'
+    last_response.should be_ok
+  end
+
 end
