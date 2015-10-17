@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<methodResponse>
+  <params>
+    <param>
+      <value>
+        <array>
+          <data>
+            <value>
+              <struct>
+                <member>
+                  <name>FirstName</name>
+                  <value>Chuck</value>
+                </member>
+                <member>
+                  <name>Id</name>
+                  <value><i4>22</i4></value>
+                </member>
+              </struct>
+            </value>
+          </data>
+        </array>
+      </value>
+    </param>
+  </params>
+</methodResponse>

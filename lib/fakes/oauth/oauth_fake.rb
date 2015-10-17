@@ -24,6 +24,12 @@ module Fakes
 
     protected
 
+    def xml_response(response_code, file_name, service)
+      content_type 'text/xml'
+      status response_code
+      File.open(File.dirname(__FILE__) +"/#{service}/#{service}_data/" + file_name).read
+    end
+
     def json_response(response_code, file_name, service)
       content_type :json
       status response_code
