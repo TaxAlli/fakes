@@ -31,4 +31,20 @@ describe Fakes do
     last_response.should be_ok
   end
 
+  describe Fakes::RecurlyFake do
+
+    def app
+      described_class
+    end
+
+    it "recurly cancel subscription works" do
+      put 'recurly/subscriptions/1/cancel'
+      expect(last_response).to be_ok
+    end
+
+    it "recurly create subscription works" do
+      post 'recurly/subscriptions'
+      expect(last_response).to be_ok
+    end
+  end
 end
