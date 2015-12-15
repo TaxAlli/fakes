@@ -38,12 +38,12 @@ describe Fakes do
     end
 
     it "recurly cancel subscription works" do
-      put 'recurly/subscriptions/1/cancel'
+      put '/subscriptions/1/cancel'
       expect(last_response).to be_ok
     end
 
     it "recurly create subscription works" do
-      post 'recurly/subscriptions'
+      post '/subscriptions'
       expect(last_response).to be_ok
     end
   end
